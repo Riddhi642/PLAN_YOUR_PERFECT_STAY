@@ -1,0 +1,91 @@
+body{
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+}
+
+/* 🔥 MODERN NAVBAR (Glass Effect) */
+.navbar{
+    padding: 14px 0;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(12px);
+}
+
+/* LOGO (clean rectangle) */
+.logo-img{
+    height: 50px;
+    width: auto;
+    object-fit: contain;
+}
+/* NAV LINKS */
+.nav-link{
+    color: #fff !important;
+    font-size: 16px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.nav-link:hover{
+    color: #00d4ff !important;
+}
+
+/* CENTER NAV */
+.navbar-nav{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+/* BUTTONS */
+.navbar .btn{
+    border-radius: 8px;
+    padding: 6px 14px;
+}
+
+/* HERO SECTION */
+.hero{
+    background: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+                url("../images/bg.jpg") center/cover no-repeat;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+    color: #fff;
+}
+
+/* SEARCH BOX (MODERN CARD) */
+.search-box{
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.25);
+}
+
+/* INPUT STYLE */
+.search-box input{
+    height: 50px;
+    border-radius: 10px;
+}
+
+/* SEARCH BUTTON */
+.btn-search{
+    height: 50px;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+/* HOVER EFFECT */
+.btn-primary{
+    transition: 0.3s;
+}
+
+.btn-primary:hover{
+    transform: scale(1.05);
+}
+
+.custom-navbar{
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(12px);
+}
